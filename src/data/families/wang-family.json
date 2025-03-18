@@ -1,0 +1,56 @@
+{
+  "id": "wang-family",
+  "name": "王家",
+  "description": "红楼梦中的王家，与贾府有姻亲关系",
+  "createdAt": "2024-01-01",
+  "updatedAt": "2024-01-01",
+  "metadata": {
+    "origin": "金陵",
+    "familyMotto": "忠于朝廷，家族昌盛",
+    "familyHistory": "王家为金陵世家，与贾府有姻亲关系，家族势力显赫"
+  },
+  "rootNode": {
+    "id": "wang-ziteng",
+    "name": "王子腾",
+    "gender": "male",
+    "description": "王家族长，当朝五府中军都督府掌印官",
+    "spouse": {
+      "id": "wang-furen",
+      "name": "王夫人",
+      "gender": "female",
+      "description": "王子腾之妻"
+    },
+    "children": [
+      {
+        "id": "wang-furen-jia",
+        "name": "王夫人",
+        "gender": "female",
+        "description": "王子腾之女，贾政之妻",
+        "spouse": {
+          "id": "jia-zheng",
+          "name": "贾政",
+          "gender": "male",
+          "description": "荣国府当代族长"
+        }
+      },
+      {
+        "id": "wang-xifeng",
+        "name": "王熙凤",
+        "gender": "female",
+        "description": "王子腾之侄女，贾琏之妻，掌管荣国府事务",
+        "spouse": {
+          "id": "jia-lian",
+          "name": "贾琏",
+          "gender": "male",
+          "description": "贾赦之子"
+        }
+      },
+      {
+        "id": "wang-ziteng-son",
+        "name": "王仁",
+        "gender": "male",
+        "description": "王子腾之子，袭爵五府都督"
+      }
+    ]
+  }
+}

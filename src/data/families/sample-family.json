@@ -1,0 +1,61 @@
+{
+  "id": "sample-family",
+  "name": "示例家族",
+  "description": "这是一个示例家族树",
+  "createdAt": "2024-01-01",
+  "updatedAt": "2024-01-01",
+  "metadata": {
+    "origin": "某地",
+    "familyMotto": "家训",
+    "familyHistory": "家族历史简介"
+  },
+  "rootNode": {
+    "id": "ancestor-1",
+    "name": "祖先",
+    "gender": "male",
+    "birthDate": "1900-01-01",
+    "deathDate": null,
+    "description": "家族先祖，立业创家",
+    "imageUrl": "/images/ancestors/ancestor-1.jpg",
+    "achievements": ["创立家族事业", "建立家族基业"],
+    "spouse": {
+      "id": "spouse-1",
+      "name": "配偶",
+      "gender": "female",
+      "birthDate": "1902-01-01",
+      "deathDate": null,
+      "description": "贤内助",
+      "imageUrl": "/images/ancestors/spouse-1.jpg"
+    },
+    "children": [
+      {
+        "id": "child-1",
+        "name": "长子",
+        "gender": "male",
+        "birthDate": "1925-01-01",
+        "description": "继承家业",
+        "occupation": "商人",
+        "children": [
+          {
+            "id": "grandchild-1",
+            "name": "长孙",
+            "gender": "male",
+            "birthDate": "1950-01-01",
+            "description": "发展家业",
+            "education": "大学",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "child-2",
+        "name": "次子",
+        "gender": "male",
+        "birthDate": "1927-01-01",
+        "description": "协助家业",
+        "occupation": "教师",
+        "children": []
+      }
+    ]
+  }
+}

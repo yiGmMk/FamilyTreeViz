@@ -1,0 +1,46 @@
+{
+  "id": "shi-family",
+  "name": "史家",
+  "description": "红楼梦中的史家，与贾府有姻亲关系",
+  "createdAt": "2024-01-01",
+  "updatedAt": "2024-01-01",
+  "metadata": {
+    "origin": "金陵",
+    "familyMotto": "忠孝传家",
+    "familyHistory": "史家为金陵世家，家族显赫，与贾府有姻亲关系"
+  },
+  "rootNode": {
+    "id": "shi-nai",
+    "name": "史鼐",
+    "gender": "male",
+    "description": "史家族长，都太尉",
+    "spouse": {
+      "id": "shi-furen",
+      "name": "史夫人",
+      "gender": "female",
+      "description": "史鼐之妻"
+    },
+    "children": [
+      {
+        "id": "shi-yunyan-father",
+        "name": "史云言",
+        "gender": "male",
+        "description": "史鼐之子，早逝",
+        "spouse": {
+          "id": "shi-yunyan-mother",
+          "name": "史云言妻",
+          "gender": "female",
+          "description": "史云言之妻"
+        },
+        "children": [
+          {
+            "id": "shi-xiangyun",
+            "name": "史湘云",
+            "gender": "female",
+            "description": "史家孤女，性格爽朗，与贾宝玉、林黛玉为好友"
+          }
+        ]
+      }
+    ]
+  }
+}

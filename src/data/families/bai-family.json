@@ -1,0 +1,140 @@
+{
+    "id": "bai-family",
+    "name": "大宅门",
+    "description": "白家是清朝道光年间发迹于北京的医药世家，以制药和医术闻名，创办了同仁堂药铺",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01",
+    "metadata": {
+        "origin": "北京",
+        "familyMotto": "医者仁心，药者仁术",
+        "familyHistory": "白家从清朝道光年间开始以制药起家，后来开设同仁堂药铺，成为北京著名的医药世家。家族几代人秉承'修合无人见，存心有天知'的祖训，精研医术，悬壶济世"
+    },
+    "rootNode": {
+        "id": "bai-yingshan",
+        "name": "白颖山",
+        "gender": "male",
+        "birthDate": "1820",
+        "deathDate": "1890",
+        "description": "白家大宅门创始人，精通医术，创办同仁堂药铺",
+        "spouse": {
+            "name": "刘氏",
+            "birthDate": "1825",
+            "deathDate": "1885",
+            "description": "白颖山之妻，贤良淑德"
+        },
+        "children": [
+            {
+                "id": "bai-jingqi",
+                "name": "白景琦",
+                "gender": "male",
+                "birthDate": "1850",
+                "deathDate": "1920",
+                "description": "白家二代传人，扩大同仁堂规模，使其成为京城最大的药铺",
+                "spouse": {
+                    "name": "杨氏",
+                    "birthDate": "1855",
+                    "deathDate": "1915",
+                    "description": "白景琦之妻，持家有道"
+                },
+                "children": [
+                    {
+                        "id": "bai-jingchang",
+                        "name": "白景昌",
+                        "gender": "male",
+                        "birthDate": "1875",
+                        "deathDate": "1940",
+                        "description": "白家长子，继承家业，精通医术",
+                        "spouse": {
+                            "name": "赵氏",
+                            "birthDate": "1878",
+                            "deathDate": "1935",
+                            "description": "白景昌之妻"
+                        },
+                        "children": [
+                            {
+                                "id": "bai-zhiqing",
+                                "name": "白志清",
+                                "gender": "male",
+                                "birthDate": "1900",
+                                "deathDate": "1960",
+                                "description": "白家四代传人，继承同仁堂主业"
+                            },
+                            {
+                                "id": "bai-zhiping",
+                                "name": "白志平",
+                                "gender": "male",
+                                "birthDate": "1902",
+                                "deathDate": "1965",
+                                "description": "专攻外科医术"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bai-jingren",
+                        "name": "白景仁",
+                        "gender": "male",
+                        "birthDate": "1878",
+                        "deathDate": "1945",
+                        "description": "白家次子，经营药材生意，拓展家族商业版图",
+                        "spouse": {
+                            "name": "李氏",
+                            "birthDate": "1880",
+                            "deathDate": "1940",
+                            "description": "白景仁之妻"
+                        },
+                        "children": [
+                            {
+                                "id": "bai-zhiwen",
+                                "name": "白志文",
+                                "gender": "male",
+                                "birthDate": "1905",
+                                "deathDate": "1970",
+                                "description": "经营药材铺"
+                            },
+                            {
+                                "id": "bai-zhimin",
+                                "name": "白志民",
+                                "gender": "male",
+                                "birthDate": "1907",
+                                "deathDate": "1975",
+                                "description": "管理同仁堂分号"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bai-jingkun",
+                        "name": "白景琨",
+                        "gender": "male",
+                        "birthDate": "1880",
+                        "deathDate": "1950",
+                        "description": "白家三子，负责同仁堂分号，传承白家医术",
+                        "spouse": {
+                            "name": "王氏",
+                            "birthDate": "1883",
+                            "deathDate": "1945",
+                            "description": "白景琨之妻"
+                        },
+                        "children": [
+                            {
+                                "id": "bai-zhihui",
+                                "name": "白志辉",
+                                "gender": "male",
+                                "birthDate": "1908",
+                                "deathDate": "1980",
+                                "description": "精研中医理论"
+                            },
+                            {
+                                "id": "bai-zhijun",
+                                "name": "白志军",
+                                "gender": "male",
+                                "birthDate": "1910",
+                                "deathDate": "1985",
+                                "description": "专攻内科医术"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

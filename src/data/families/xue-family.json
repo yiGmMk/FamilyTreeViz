@@ -1,0 +1,50 @@
+{
+  "id": "xue-family",
+  "name": "薛家",
+  "description": "红楼梦中的薛家，与贾府有姻亲关系",
+  "createdAt": "2024-01-01",
+  "updatedAt": "2024-01-01",
+  "metadata": {
+    "origin": "金陵",
+    "familyMotto": "诗书传家",
+    "familyHistory": "薛家为金陵世家，以经商起家，与贾府有姻亲关系"
+  },
+  "rootNode": {
+    "id": "xue-furen",
+    "name": "薛姨妈",
+    "gender": "female",
+    "description": "薛家当家主母，贾母之妹",
+    "spouse": {
+      "id": "xue-pan-father",
+      "name": "薛蟠父",
+      "gender": "male",
+      "description": "薛姨妈已故的丈夫"
+    },
+    "children": [
+      {
+        "id": "xue-pan",
+        "name": "薛蟠",
+        "gender": "male",
+        "description": "薛家独子，性格粗豪",
+        "spouse": {
+          "id": "xia-jingui",
+          "name": "夏金桂",
+          "gender": "female",
+          "description": "薛蟠之妻"
+        }
+      },
+      {
+        "id": "xue-baochai",
+        "name": "薛宝钗",
+        "gender": "female",
+        "description": "薛家千金，温柔贤惠",
+        "spouse": {
+          "id": "jia-baoyu",
+          "name": "贾宝玉",
+          "gender": "male",
+          "description": "贾政次子"
+        }
+      }
+    ]
+  }
+}
