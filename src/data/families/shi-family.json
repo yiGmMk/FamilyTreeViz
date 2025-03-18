@@ -1,13 +1,13 @@
 {
   "id": "shi-family",
   "name": "史家",
-  "description": "红楼梦中的史家，与贾府有姻亲关系",
+  "description": "红楼梦中的史家，与贾府有姻亲关系，家族显赫，有两位侯爷",
   "createdAt": "2024-01-01",
   "updatedAt": "2024-01-01",
   "metadata": {
     "origin": "金陵",
     "familyMotto": "忠孝传家",
-    "familyHistory": "史家为金陵世家，家族显赫，与贾府有姻亲关系"
+    "familyHistory": "史家为金陵世家，家族显赫，与贾府有姻亲关系，有两位侯爷"
   },
   "rootNode": {
     "id": "shi-nai",
@@ -18,7 +18,7 @@
       "id": "shi-furen",
       "name": "史夫人",
       "gender": "female",
-      "description": "史鼐之妻",
+      "description": "史鼐之妻，贤良淑德",
       "spouse_relation": "正室"
     },
     "children": [
@@ -26,8 +26,8 @@
         "id": "shi-yunyan-father",
         "name": "史云言",
         "gender": "male",
-        "description": "史鼐之子，早逝",
-        "relation": "独子",
+        "description": "史鼐长子，早逝",
+        "relation": "长子",
         "spouse": {
           "id": "shi-yunyan-mother",
           "name": "史云言妻",
@@ -40,8 +40,54 @@
             "id": "shi-xiangyun",
             "name": "史湘云",
             "gender": "female",
-            "description": "史家孤女，性格爽朗，与贾宝玉、林黛玉为好友",
+            "description": "史家孤女，性格爽朗，与贾宝玉、林黛玉为好友，由祖父史鼐抚养",
             "relation": "独女"
+          }
+        ]
+      },
+      {
+        "id": "shi-yunhao",
+        "name": "史云豪",
+        "gender": "male",
+        "description": "史鼐次子，一等将军，封侯",
+        "relation": "次子",
+        "spouse": {
+          "id": "shi-yunhao-wife",
+          "name": "史云豪夫人",
+          "gender": "female",
+          "description": "史云豪之妻",
+          "spouse_relation": "正室"
+        },
+        "children": [
+          {
+            "id": "shi-yunhao-son",
+            "name": "史云豪长子",
+            "gender": "male",
+            "description": "史云豪之子",
+            "relation": "长子"
+          }
+        ]
+      },
+      {
+        "id": "shi-yunqiang",
+        "name": "史云强",
+        "gender": "male",
+        "description": "史鼐三子，一等将军，封侯",
+        "relation": "三子",
+        "spouse": {
+          "id": "shi-yunqiang-wife",
+          "name": "史云强夫人",
+          "gender": "female",
+          "description": "史云强之妻",
+          "spouse_relation": "正室"
+        },
+        "children": [
+          {
+            "id": "shi-yunqiang-son",
+            "name": "史云强长子",
+            "gender": "male",
+            "description": "史云强之子",
+            "relation": "长子"
           }
         ]
       }
