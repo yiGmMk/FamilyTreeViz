@@ -50,6 +50,24 @@ export default function FamilyTree({ data, width = 800, height = 600 }: FamilyTr
                 L${d.target.x},${d.target.y}`;
       });
 
+    // 添加关系标注
+    svg.selectAll('text.relationship')
+      .data(treeData.links())
+      .enter()
+      .append('text')
+      .attr('class', 'relationship')
+      .attr('x', (d: any) => (d.source.x + d.target.x) / 2)
+      .attr('y', (d: any) => (d.source.y + d.target.y) / 2 - 10)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#666')
+      .attr('font-size', '12px')
+      .text((d: any) => {
+        if (d.target.data.spouse && d.source.data === d.target.data.spouse) {
+          return d.target.data.spouse.spouse_relation || '配偶';
+        }
+        return d.target.data.relation || '子女';
+      });
+
     // 创建节点组
     const nodes = svg.selectAll('g.node')
       .data(treeData.descendants())

@@ -18,7 +18,8 @@
       "id": "xue-pan-father",
       "name": "薛蟠父",
       "gender": "male",
-      "description": "薛姨妈已故的丈夫"
+      "description": "薛姨妈已故的丈夫",
+      "spouse_relation": "正室"
     },
     "children": [
       {
@@ -26,11 +27,13 @@
         "name": "薛蟠",
         "gender": "male",
         "description": "薛家独子，性格粗豪",
+        "relation": "长子",
         "spouse": {
           "id": "xia-jingui",
           "name": "夏金桂",
           "gender": "female",
-          "description": "薛蟠之妻"
+          "description": "薛蟠之妻",
+          "spouse_relation": "正室"
         }
       },
       {
@@ -38,11 +41,13 @@
         "name": "薛宝钗",
         "gender": "female",
         "description": "薛家千金，温柔贤惠",
+        "relation": "长女",
         "spouse": {
           "id": "jia-baoyu",
           "name": "贾宝玉",
           "gender": "male",
-          "description": "贾政次子"
+          "description": "贾政次子",
+          "spouse_relation": "正室"
         }
       }
     ]

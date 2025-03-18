@@ -20,7 +20,8 @@
             "name": "刘氏",
             "birthDate": "1825",
             "deathDate": "1885",
-            "description": "白颖山之妻，贤良淑德"
+            "description": "白颖山之妻，贤良淑德",
+            "spouse_relation": "发妻"
         },
         "children": [
             {
@@ -30,11 +31,13 @@
                 "birthDate": "1850",
                 "deathDate": "1920",
                 "description": "白家二代传人，扩大同仁堂规模，使其成为京城最大的药铺",
+                "relation": "独子",
                 "spouse": {
                     "name": "杨氏",
                     "birthDate": "1855",
                     "deathDate": "1915",
-                    "description": "白景琦之妻，持家有道"
+                    "description": "白景琦之妻，持家有道",
+                    "spouse_relation": "发妻"
                 },
                 "children": [
                     {
@@ -44,11 +47,13 @@
                         "birthDate": "1875",
                         "deathDate": "1940",
                         "description": "白家长子，继承家业，精通医术",
+                        "relation": "长子",
                         "spouse": {
                             "name": "赵氏",
                             "birthDate": "1878",
                             "deathDate": "1935",
-                            "description": "白景昌之妻"
+                            "description": "白景昌之妻",
+                            "spouse_relation": "发妻"
                         },
                         "children": [
                             {
@@ -57,7 +62,8 @@
                                 "gender": "male",
                                 "birthDate": "1900",
                                 "deathDate": "1960",
-                                "description": "白家四代传人，继承同仁堂主业"
+                                "description": "白家四代传人，继承同仁堂主业",
+                                "relation": "长子"
                             },
                             {
                                 "id": "bai-zhiping",
@@ -65,7 +71,8 @@
                                 "gender": "male",
                                 "birthDate": "1902",
                                 "deathDate": "1965",
-                                "description": "专攻外科医术"
+                                "description": "专攻外科医术",
+                                "relation": "次子"
                             }
                         ]
                     },
@@ -76,11 +83,13 @@
                         "birthDate": "1878",
                         "deathDate": "1945",
                         "description": "白家次子，经营药材生意，拓展家族商业版图",
+                        "relation": "次子",
                         "spouse": {
                             "name": "李氏",
                             "birthDate": "1880",
                             "deathDate": "1940",
-                            "description": "白景仁之妻"
+                            "description": "白景仁之妻",
+                            "spouse_relation": "发妻"
                         },
                         "children": [
                             {
@@ -89,7 +98,8 @@
                                 "gender": "male",
                                 "birthDate": "1905",
                                 "deathDate": "1970",
-                                "description": "经营药材铺"
+                                "description": "经营药材铺",
+                                "relation": "长子"
                             },
                             {
                                 "id": "bai-zhimin",
@@ -97,7 +107,8 @@
                                 "gender": "male",
                                 "birthDate": "1907",
                                 "deathDate": "1975",
-                                "description": "管理同仁堂分号"
+                                "description": "管理同仁堂分号",
+                                "relation": "次子"
                             }
                         ]
                     },
@@ -108,11 +119,13 @@
                         "birthDate": "1880",
                         "deathDate": "1950",
                         "description": "白家三子，负责同仁堂分号，传承白家医术",
+                        "relation": "三子",
                         "spouse": {
                             "name": "王氏",
                             "birthDate": "1883",
                             "deathDate": "1945",
-                            "description": "白景琨之妻"
+                            "description": "白景琨之妻",
+                            "spouse_relation": "发妻"
                         },
                         "children": [
                             {
@@ -121,7 +134,8 @@
                                 "gender": "male",
                                 "birthDate": "1908",
                                 "deathDate": "1980",
-                                "description": "精研中医理论"
+                                "description": "精研中医理论",
+                                "relation": "长子"
                             },
                             {
                                 "id": "bai-zhijun",
@@ -129,7 +143,8 @@
                                 "gender": "male",
                                 "birthDate": "1910",
                                 "deathDate": "1985",
-                                "description": "专攻内科医术"
+                                "description": "专攻内科医术",
+                                "relation": "次子"
                             }
                         ]
                     }

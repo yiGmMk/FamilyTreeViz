@@ -18,7 +18,8 @@
       "id": "shi-furen",
       "name": "史夫人",
       "gender": "female",
-      "description": "史鼐之妻"
+      "description": "史鼐之妻",
+      "spouse_relation": "正室"
     },
     "children": [
       {
@@ -26,18 +27,21 @@
         "name": "史云言",
         "gender": "male",
         "description": "史鼐之子，早逝",
+        "relation": "独子",
         "spouse": {
           "id": "shi-yunyan-mother",
           "name": "史云言妻",
           "gender": "female",
-          "description": "史云言之妻"
+          "description": "史云言之妻",
+          "spouse_relation": "正室"
         },
         "children": [
           {
             "id": "shi-xiangyun",
             "name": "史湘云",
             "gender": "female",
-            "description": "史家孤女，性格爽朗，与贾宝玉、林黛玉为好友"
+            "description": "史家孤女，性格爽朗，与贾宝玉、林黛玉为好友",
+            "relation": "独女"
           }
         ]
       }

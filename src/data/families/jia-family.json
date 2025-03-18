@@ -20,11 +20,13 @@
         "name": "贾政",
         "gender": "male",
         "description": "荣国府当代族长，文化人",
+        "relation": "次子",
         "spouse": {
           "id": "wang-furen",
           "name": "王夫人",
           "gender": "female",
-          "description": "贾政之正室，王熙凤之姑母"
+          "description": "贾政之正室，王熙凤之姑母",
+          "spouse_relation": "正室"
         },
         "children": [
           {
@@ -32,18 +34,21 @@
             "name": "贾珠",
             "gender": "male",
             "description": "贾政之长子，早逝",
+            "relation": "长子",
             "spouse": {
               "id": "li-wan",
               "name": "李纨",
               "gender": "female",
-              "description": "贾珠之妻，后守寡"
+              "description": "贾珠之妻，后守寡",
+              "spouse_relation": "发妻"
             },
             "children": [
               {
                 "id": "jia-lan",
                 "name": "贾兰",
                 "gender": "male",
-                "description": "贾珠之子，聪慧好学"
+                "description": "贾珠之子，聪慧好学",
+                "relation": "独子"
               }
             ]
           },
@@ -51,31 +56,36 @@
             "id": "jia-yuan",
             "name": "贾元春",
             "gender": "female",
-            "description": "贾政之长女，省试第一，后入宫为贵妃"
+            "description": "贾政之长女，省试第一，后入宫为贵妃",
+            "relation": "长女"
           },
           {
             "id": "jia-baoyu",
             "name": "贾宝玉",
             "gender": "male",
             "description": "贾政之次子，荣国府宝玉，天性纯真",
+            "relation": "次子",
             "spouse": {
               "id": "xue-baochai",
               "name": "薛宝钗",
               "gender": "female",
-              "description": "薛家小姐，温柔贤惠"
+              "description": "薛家小姐，温柔贤惠",
+              "spouse_relation": "正室"
             }
           },
           {
             "id": "jia-tanchun",
             "name": "贾探春",
             "gender": "female",
-            "description": "贾政之次女，聪明能干"
+            "description": "贾政之次女，聪明能干",
+            "relation": "次女"
           },
           {
             "id": "jia-yingchun",
             "name": "贾迎春",
             "gender": "female",
-            "description": "贾政之三女，性格懦弱"
+            "description": "贾政之三女，性格懦弱",
+            "relation": "三女"
           }
         ]
       },
@@ -84,11 +94,13 @@
         "name": "贾赦",
         "gender": "male",
         "description": "荣国府长子",
+        "relation": "长子",
         "spouse": {
           "id": "xing-furen",
           "name": "邢夫人",
           "gender": "female",
-          "description": "贾赦之妻"
+          "description": "贾赦之妻",
+          "spouse_relation": "正室"
         },
         "children": [
           {
@@ -96,46 +108,14 @@
             "name": "贾琏",
             "gender": "male",
             "description": "贾赦之子",
+            "relation": "独子",
             "spouse": {
               "id": "wang-xifeng",
               "name": "王熙凤",
               "gender": "female",
-              "description": "贾琏之妻，掌管荣国府事务"
+              "description": "贾琏之妻，王夫人之侄女",
+              "spouse_relation": "正室"
             }
-          }
-        ]
-      },
-      {
-        "id": "jia-jing",
-        "name": "贾敬",
-        "gender": "male",
-        "description": "宁国府当代族长，好道修真",
-        "children": [
-          {
-            "id": "jia-zhen",
-            "name": "贾珍",
-            "gender": "male",
-            "description": "宁国府世子",
-            "spouse": {
-              "id": "you-shi",
-              "name": "尤氏",
-              "gender": "female",
-              "description": "贾珍之妻"
-            },
-            "children": [
-              {
-                "id": "jia-jing",
-                "name": "贾蓉",
-                "gender": "male",
-                "description": "贾珍之子",
-                "spouse": {
-                  "id": "qin-keqing",
-                  "name": "秦可卿",
-                  "gender": "female",
-                  "description": "贾蓉之妻，命运悲惨"
-                }
-              }
-            ]
           }
         ]
       }
